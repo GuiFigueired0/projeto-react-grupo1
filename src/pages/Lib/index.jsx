@@ -1,3 +1,3 @@
 export function Lib(){
-    return <h1>Biblioteca</h1>
+    return <h1>Crie aqui sua própria playlist</h1>
 }
