@@ -1,4 +1,5 @@
 import React from 'react';
+import './styles.css';
 import { Formik, Form, Field, ErrorMessage } from "formik";
 import * as yup from "yup";
 
