@@ -11,11 +11,11 @@ function Home(){
             <div className='header'>
                     <img src='./Images/logo-pequena.png' alt='logo principal' height='60px'></img>
 
-                    <button /*className='button' onClick={onClick} disabled={disabled}*/>
+                    <button className='button1'>
                         Login
                     </button>
 
-                    <button>
+                    <button className='button2'>
                         Sign up
                     </button>
             </div>    
