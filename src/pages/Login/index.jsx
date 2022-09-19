@@ -1,6 +1,6 @@
 import React from 'react';
 import './styles.css';
-import { Formik, Form, Field, ErrorMessage } from "formik";
+import { Formik, Field, ErrorMessage } from "formik";
 import * as yup from "yup";
 
 
@@ -11,38 +11,37 @@ export function Login(){
     e.preventDefault();
     const formData = new FormData(e.target);
     const data = Object.fromEntries(formData);
-    console.log("TESTEEEEEEEEEEEEEEEEEEEE");
   };
 
   const validationSchema = yup.object({
 
     nome: yup
      .string()
-     .required("Obrigatório"),
+     .required("Campo obrigatório!"),
 
     sobrenome: yup
      .string()
-     .required("Obrigatório"),
+     .required("Campo obrigatório!"),
     
     email: yup
      .string()
      .email("Coloque um email válido")
-     .required("Obrigatório"),
+     .required("Campo obrigatório!"),
 
     confirmacaoemail: yup
      .string()
      .oneOf([yup.ref('email'),null], 'Emails não compatíveis')
-     .required("Obrigatório"),
+     .required("Campo obrigatório!"),
 
     senha: yup 
      .string()
      .min(8, "8 caracteres no mínimo!")
-     .required("Obrigatório"),
+     .required("Campo obrigatório!"),
 
     confirmacaosenha: yup
      .string()
      .oneOf([yup.ref('senha'),null], 'Senhas não compatíveis')
-     .required("Obrigatório")
+     .required("Campo obrigatório!")
 
   });
 
@@ -91,7 +90,6 @@ export function Login(){
             
             <div className='confimação-senha'>
               <p>Confirmação senha:</p>
-              
               <Field type= "password" name= "confirmacaosenha" placeholder = "Confirme sua senha.." />
               <ErrorMessage component="div" name="confirmacaosenha" />
              
