@@ -51,18 +51,47 @@ export function Login(){
       validationSchema={validationSchema}
       >
 
-        <form onSubmit= {handleSubmit}>
-          <h1>Login</h1>
-          <input type= "text" name= "nome" placeholder= "Digite seu nome.." />
-          <input type= "text" name= "sobrenome" placeholder= "Digite seu sobrenome.." />
-          <input type= "text" name= "email" placeholder = "Digite seu email.." />
-          <input type= "text" name= "confirmacaoemail" placeholder = "Confirme seu email.." />
-          <input type= "password" name= "senha" placeholder = "Digite sua senha.." />
-          <input type= "password" name= "confirmacaosenha" placeholder = "Confirme sua senha.." />
-          <button type= "submit">Enviar</button>
+<div className='container-principal'>
+        <h1>Login</h1>
 
+        <div className='box-informacoes'>
+          <form onSubmit= {handleSubmit}>
+            
+            <div className='nome'>
+              <p>Nome:</p>
+              <input required type= "text" name= "nome" placeholder= "Digite seu nome.." />
+            </div>
+            
+            <div className='sobrenome'>
+              <p>Sobrenome:</p>
+              <input required type= "text" name= "sobrenome" placeholder= "Digite seu sobrenome.." />
+            </div>
+            
+            <div className='email'>
+              <p>Email:</p>
+              <input required type= "text" name= "email" placeholder = "Digite seu email.." />
+            </div>
 
-        </form>
+            <div className='confimação-email'>
+              <p>Confirmação email:</p>
+              <input required type= "text" name= "confirmacaoemail" placeholder = "Confirme seu email.." />
+            </div>
+            
+            <div className='senha'>
+              <p>Senha:</p>
+              <input required type= "password" name= "senha" placeholder = "Digite sua senha.." />
+            </div>
+            
+            <div className='confimação-senha'>
+              <p>Confirmação senha:</p>
+              <input required type= "password" name= "confirmacaosenha" placeholder = "Confirme sua senha.." />
+            </div>
+            
+            <button type= "submit">Enviar</button>
+
+          </form>
+        </div>
+      </div>
         </Formik>
     );
     
