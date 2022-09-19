@@ -52,6 +52,7 @@ button {
     font-size: 36px;
     line-height: 46px;
     color: #CDCDCD;
+    cursor: pointer;
 }
 
 .container-principal {
@@ -105,4 +106,9 @@ button {
 
 .email input, .confimação-email input {
     width: 822px;
+}
+.aldiv {
+    display: flex;
+    flex-direction: row;
+    width: 600px !important;
 }

@@ -11,6 +11,7 @@ export function Login(){
     e.preventDefault();
     const formData = new FormData(e.target);
     const data = Object.fromEntries(formData);
+    console.log("TESTEEEEEEEEEEEEEEEEEEEE");
   };
 
   const validationSchema = yup.object({
@@ -58,34 +59,42 @@ export function Login(){
         <div className='box-informacoes'>
           <form onSubmit= {handleSubmit}>
             
-            <div className='nome'>
+            <div className='nome aldiv'>
               <p>Nome:</p>
-              <input required type= "text" name= "nome" placeholder= "Digite seu nome.." />
+              <Field type= "text" name= "nome" placeholder= "Digite seu nome.." />
+              <ErrorMessage component="div" name="nome" />
             </div>
             
             <div className='sobrenome'>
               <p>Sobrenome:</p>
-              <input required type= "text" name= "sobrenome" placeholder= "Digite seu sobrenome.." />
+              <Field type= "text" name= "sobrenome" placeholder= "Digite seu sobrenome.." />
+              <ErrorMessage component="div" name="sobrenome" />
             </div>
             
             <div className='email'>
               <p>Email:</p>
-              <input required type= "text" name= "email" placeholder = "Digite seu email.." />
+              <Field type= "text" name= "email" placeholder = "Digite seu email.." />
+              <ErrorMessage component="div" name="email" />
             </div>
 
             <div className='confimação-email'>
               <p>Confirmação email:</p>
-              <input required type= "text" name= "confirmacaoemail" placeholder = "Confirme seu email.." />
+              <Field type= "text" name= "confirmacaoemail" placeholder = "Confirme seu email.." />
+              <ErrorMessage component="div" name="confirmacaoemail" />
             </div>
             
-            <div className='senha'>
+            <div className='senha aldiv'>
               <p>Senha:</p>
-              <input required type= "password" name= "senha" placeholder = "Digite sua senha.." />
+              <Field type= "password" name= "senha" placeholder = "Digite sua senha.." />
+              <ErrorMessage component="div" name="senha" />
             </div>
             
             <div className='confimação-senha'>
               <p>Confirmação senha:</p>
-              <input required type= "password" name= "confirmacaosenha" placeholder = "Confirme sua senha.." />
+              
+              <Field type= "password" name= "confirmacaosenha" placeholder = "Confirme sua senha.." />
+              <ErrorMessage component="div" name="confirmacaosenha" />
+             
             </div>
             
             <button type= "submit">Enviar</button>
