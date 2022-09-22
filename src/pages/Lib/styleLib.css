@@ -1,0 +1,55 @@
+body {
+    background-color: #292929;
+}
+
+.mainHeader{
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 15px;
+    
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(10, 23, 69, 0.6) 100%);
+}
+.searchBar {
+    background-color: #301c69;
+    border: #000;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+.libraryContent {
+    margin: 40px;
+    display: inline-flex;
+    flex-wrap: wrap; 
+    justify-content: space-evenly;
+    color: rgb(29, 39, 126);
+}
+.mainTitle {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.playlists {
+    display: inline-flex;
+    text-align: center;
+    
+    background-color: #000;
+    margin: 100px;
+    padding-bottom: 50px;
+}
+.firstPlaylist {
+    /* margin: 100px; */
+    max-width: 180px;
+}
+.playlistTitle {
+    color: aqua;
+    font-size: 25px;
+}
+.music {
+    display: flex;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 20px;
+}
