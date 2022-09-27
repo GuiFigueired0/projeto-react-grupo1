@@ -1,0 +1,518 @@
+{
+    "my-library": [
+        {
+            "id": 0,
+            "name": "Minhas Favoritas",
+            "artist": "Kate Mennez",
+            "musics": [ 0, 1, 2, 3]
+        },
+        {
+            "id": 1,
+            "name": "Músicas aleatórias",
+            "artist": "Anne-Marie",
+            "musics": [ 4, 5, 6, 7]
+        },
+        {
+            "id": 2,
+            "name": "Pop Internacional",
+            "artist": "Doja Cat",
+            "musics": [ 8, 9, 10, 11]
+        },
+        {
+            "id": 3,
+            "name": "The Queen",
+            "artist": "Adele",
+            "musics": [ 12, 13, 14, 15]
+        },
+        {
+            "id": 4,
+            "name": "Achei por aí",
+            "artist": "Lyn Lapid",
+            "musics": [ 16, 17, 18, 19]
+        }
+    ],
+    "top-songs": [
+        {
+            "id": 0,
+            "name": "ondas",
+            "artist": "John Lancer",
+            "musics": [ 50, 51, 52, 53]
+        },
+        {
+            "id": 1,
+            "name": "Preto é Minha Cor ",
+            "artist": "Bruno Santos",
+            "musics": [ 54, 55, 56, 57]
+        },
+        {
+            "id": 2,
+            "name": "Mar Revolto",
+            "artist": "Jeniffer Lewis",
+            "musics": [ 58, 59, 60, 61]
+        },
+        {
+            "id": 3,
+            "name": "Miss You",
+            "artist": "Scarlet Monte",
+            "musics": [ 62, 63, 64, 65]
+        },
+        {
+            "id": 4,
+            "name": "Ondas Renegadas",
+            "artist": "Marconne Flavio",
+            "musics": [ 66, 67, 68, 69]
+        },
+        {
+            "id": 5,
+            "name": "O mundo é das meninas",
+            "artist": "Marilyn Manece",
+            "musics": [ 70, 71, 72, 73]
+        },
+        {
+            "id": 6,
+            "name": "Uma linda Melancolia",
+            "artist": "Petter Francis",
+            "musics": [ 74, 75, 76, 77]
+        },
+        {
+            "id": 7,
+            "name": "Rap and Trap",
+            "artist": "Jonas Bruce",
+            "musics": [ 78, 79, 80, 81]
+        },
+        {
+            "id": 8,
+            "name": "Away and close",
+            "artist": "Carlos Pace",
+            "musics": [ 82, 83, 84, 85]
+        },
+        {
+            "id": 9,
+            "name": "Countdown",
+            "artist": "Joshua Pearson",
+            "musics": [ 86, 87, 88, 89]
+        }
+    ], 
+    "musics": [
+        {
+            "id": 0,
+            "name": "Fly away",
+            "year": 1979,
+            "time": 199,
+            "singer": "Kate Mennez"
+        },
+        {
+            "id": 1,
+            "name": "The world is ours",
+            "year": 1981,
+            "time": 224,
+            "singer": "Kate Mennez"
+        },
+        {
+            "id": 2,
+            "name": "Along the mountain of joy",
+            "year": 1980,
+            "time": 216,
+            "singer": "Kate Mennez"
+        },
+        {
+            "id": 3,
+            "name": "Field of tranquility",
+            "year": 1981,
+            "time": 201,
+            "singer": "Clara Felix"
+        },
+        {
+            "id": 4,
+            "name": "To be Young",
+            "year": 2014,
+            "time": 185,
+            "singer": "Anne-Marie"
+        },
+        {
+            "id": 5,
+            "name": "Dancing with your ghost",
+            "year": 2018,
+            "time": 185,
+            "singer": "Sasha Alex"
+        },
+        {
+            "id": 6,
+            "name": "Atlantis",
+            "year": 2022,
+            "time": 259,
+            "singer": "Seafret"
+        },
+        {
+            "id": 7,
+            "name": "Human",
+            "year": 2012,
+            "time": 198,
+            "singer": "Rag'n'Bone Man"
+        },
+        {
+            "id": 8,
+            "name": "Nonsense",
+            "year": 2022,
+            "time": 164,
+            "singer": "Sabrina Carpenter"
+        },
+        {
+            "id": 9,
+            "name": "Positions",
+            "year": 2018,
+            "time": 172,
+            "singer": "Ariana Grande"
+        },
+        {
+            "id": 10,
+            "name": "Here",
+            "year": 2017,
+            "time": 197,
+            "singer": "Alicia Cara"
+        },
+        {
+            "id": 11,
+            "name": "Vegas",
+            "year": 2022,
+            "time": 203,
+            "singer": "Doja Cat"
+        },
+        {
+            "id": 12,
+            "name": "Love in the dark",
+            "year": 2014,
+            "time": 265,
+            "singer": "Adele"
+        },
+        {
+            "id": 13,
+            "name": "All I ask",
+            "year": 2015,
+            "time": 243,
+            "singer": "Adele"
+        },
+        {
+            "id": 14,
+            "name": "When we were young",
+            "year": 2014,
+            "time": 252,
+            "singer": "Adele"
+        },
+        {
+            "id": 15,
+            "name": "Easy on me",
+            "year": 2022,
+            "time": 214,
+            "singer": "Adele"
+        },
+        {
+            "id": 16,
+            "name": "In my mind",
+            "year": 2021,
+            "time": 206,
+            "singer": "Lyn Lapid"
+        },
+        {
+            "id": 17,
+            "name": "Tears of Gold",
+            "year": 2018,
+            "time": 219,
+            "singer": "Fouzia"
+        },
+        {
+            "id": 18,
+            "name": "Painkiller",
+            "year": 2016,
+            "time": 208,
+            "singer": "Ruel"
+        },
+        {
+            "id": 19,
+            "name": "Lost boy",
+            "year": 2019,
+            "time": 188,
+            "singer": "Ruth B"
+        },
+        {
+            "id": 50,
+            "name": "With the waves",
+            "year": 1999,
+            "time": 203,
+            "singer": "John Lancer"
+        },
+        {
+            "id": 51,
+            "name": "The ocean calls",
+            "year": 2000,
+            "time": 227,
+            "singer": "John Lancer"
+        },
+        {
+            "id": 52,
+            "name": "The sound of the sea",
+            "year": 1999,
+            "time": 216,
+            "singer": "Marie Pirie"
+        },
+        {
+            "id": 53,
+            "name": "Crashing like waves",
+            "year": 2001,
+            "time": 198,
+            "singer": "John Lancer"
+        },
+        {
+            "id": 54,
+            "name": "In the road",
+            "year": 1983,
+            "time": 213,
+            "singer": "Bruno Santos"
+        },
+        {
+            "id": 55,
+            "name": "Black like me",
+            "year": 1085,
+            "time": 219,
+            "singer": "Bruno Santos"
+        },
+        {
+            "id": 56,
+            "name": "More than black or white",
+            "year": 1984,
+            "time": 199,
+            "singer": "James M. Jonson"
+        },
+        {
+            "id": 57,
+            "name": "Around my city",
+            "year": 1985,
+            "time": 202,
+            "singer": "Bruno Santos"
+        },
+        {
+            "id": 58,
+            "name": "Alert of thunderstorm",
+            "year": 2001,
+            "time": 217,
+            "singer": "Jeniffer Lewis"
+        },
+        {
+            "id": 59,
+            "name": "Bring sand to the beach",
+            "year": 2000,
+            "time": 228,
+            "singer": "Jeniffer Lewis"
+        },
+        {
+            "id": 60,
+            "name": "Tsunami of emotions",
+            "year": 2002,
+            "time": 185,
+            "singer": "Martina Cranes"
+        },
+        {
+            "id": 61,
+            "name": "Angry wind",
+            "year": 2001,
+            "time": 209,
+            "singer": "Jeniffer Lewis"
+        },
+        {
+            "id": 62,
+            "name": "Your touch",
+            "year": 1993,
+            "time": 204,
+            "singer": "Scarlet Monte"
+        },
+        {
+            "id": 63,
+            "name": "The night you gone",
+            "year": 1993,
+            "time": 223,
+            "singer": "Scarlet Monte"
+        },
+        {
+            "id": 64,
+            "name": "Nobody like you",
+            "year": 1994,
+            "time": 196,
+            "singer": "Willian Flame"
+        },
+        {
+            "id": 65,
+            "name": "Come back for me",
+            "year": 1995,
+            "time": 211,
+            "singer": "Scarlet Monte"
+        },
+        {
+            "id": 66,
+            "name": "Crash on me",
+            "year": 2004,
+            "time": 207,
+            "singer": "Marconne Flavio"
+        },
+        {
+            "id": 67,
+            "name": "the curves of you",
+            "year": 2005,
+            "time": 225,
+            "singer": "Marconne Flavio"
+        },
+        {
+            "id": 68,
+            "name": "the lonely lake",
+            "year": 2006,
+            "time": 200,
+            "singer": "Fredrick Blacke"
+        },
+        {
+            "id": 69,
+            "name": "In your waves",
+            "year": 2006,
+            "time": 213,
+            "singer": "Marconne Flavio"
+        },
+        {
+            "id": 70,
+            "name": "Better than him",
+            "year": 2008,
+            "time": 195,
+            "singer": "Marilyn Manece"
+        },
+        {
+            "id": 71,
+            "name": "Powerful",
+            "year": 2009,
+            "time": 204,
+            "singer": "Marilyn Manece"
+        },
+        {
+            "id": 72,
+            "name": "The city we conquer",
+            "year": 2008,
+            "time": 211,
+            "singer": "Ju Estelar"
+        },
+        {
+            "id": 73,
+            "name": "Happy ever after",
+            "year": 2006,
+            "time": 213,
+            "singer": "Marilyn Manece"
+        },
+        {
+            "id": 74,
+            "name": "Apart from you",
+            "year": 2001,
+            "time": 223,
+            "singer": "Petter Francis"
+        },
+        {
+            "id": 75,
+            "name": "when I'm alone",
+            "year": 2000,
+            "time": 208,
+            "singer": "Petter Francis"
+        },
+        {
+            "id": 76,
+            "name": "Good days and bad nights",
+            "year": 2002,
+            "time": 217,
+            "singer": "Ju"
+        },
+        {
+            "id": 77,
+            "name": "In your waves",
+            "year": 2006,
+            "time": 213,
+            "singer": "Marconne Flavio"
+        },
+        {
+            "id": 78,
+            "name": "Goosebumps",
+            "year": 2013,
+            "time": 200,
+            "singer": "Jonas Bruce"
+        },
+        {
+            "id": 79,
+            "name": "For the wolves",
+            "year": 2013,
+            "time": 201,
+            "singer": "Jonas Bruce"
+        },
+        {
+            "id": 80,
+            "name": "Fight to survive",
+            "year": 2014,
+            "time": 197,
+            "singer": "Jonas Bruce"
+        },
+        {
+            "id": 81,
+            "name": "Against the world",
+            "year": 2014,
+            "time": 203,
+            "singer": "Fernando Chavez"
+        },
+        {
+            "id": 82,
+            "name": "Let me feel your body",
+            "year": 2007,
+            "time": 204,
+            "singer": "Carlos Pace"
+        },
+        {
+            "id": 83,
+            "name": "Move Away",
+            "year": 2008,
+            "time": 222,
+            "singer": "Carlos Pace"
+        },
+        {
+            "id": 84,
+            "name": "Stay back",
+            "year": 2008,
+            "time": 212,
+            "singer": "Carlos Pace"
+        },
+        {
+            "id": 85,
+            "name": "Closer",
+            "year": 1985,
+            "time": 202,
+            "singer": "Halsey"
+        },
+        {
+            "id": 86,
+            "name": "Falling for you",
+            "year": 2015,
+            "time": 216,
+            "singer": "Joshua Pearson"
+        },
+        {
+            "id": 87,
+            "name": "With the beat",
+            "year": 2016,
+            "time": 218,
+            "singer": "Anne Franco"
+        },
+        {
+            "id": 88,
+            "name": "On the three",
+            "year": 2015,
+            "time": 204,
+            "singer": "Joshua Pearson"
+        },
+        {
+            "id": 89,
+            "name": "The wait is over",
+            "year": 2015,
+            "time": 209,
+            "singer": "Joshua Pearson"
+        }
+    ]
+}

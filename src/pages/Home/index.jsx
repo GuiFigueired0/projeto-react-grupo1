@@ -15,7 +15,7 @@ function Home(){
                         Login
                     </button>
 
-                    <button className='button2'>
+                    <button >
                         Sign up
                     </button>
             </div>    
