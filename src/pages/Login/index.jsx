@@ -2,6 +2,7 @@ import React from 'react';
 import './styles.css';
 import { Formik, Field, ErrorMessage } from "formik";
 import * as yup from "yup";
+import { Link } from "react-router-dom";
 
 
 export function Login(){
@@ -61,37 +62,40 @@ export function Login(){
             <div className='nome aldiv'>
               <p>Nome:</p>
               <Field type= "text" name= "nome" placeholder= "Digite seu nome.." />
-              <ErrorMessage component="div" name="nome" />
+              <ErrorMessage className="mensagem" component="div" name="nome" />
             </div>
             
             <div className='sobrenome'>
               <p>Sobrenome:</p>
               <Field type= "text" name= "sobrenome" placeholder= "Digite seu sobrenome.." />
-              <ErrorMessage component="div" name="sobrenome" />
+              <ErrorMessage className="mensagem" component="div" name="sobrenome" />
             </div>
             
             <div className='email'>
               <p>Email:</p>
               <Field type= "text" name= "email" placeholder = "Digite seu email.." />
-              <ErrorMessage component="div" name="email" />
+              <ErrorMessage className="mensagem" component="div" name="email" />
             </div>
 
-            <div className='confimação-email'>
+            <div className='confirmação-email'>
               <p>Confirmação email:</p>
               <Field type= "text" name= "confirmacaoemail" placeholder = "Confirme seu email.." />
-              <ErrorMessage component="div" name="confirmacaoemail" />
+              <ErrorMessage className="mensagem" component="div" name="confirmacaoemail" />
             </div>
             
             <div className='senha aldiv'>
               <p>Senha:</p>
               <Field type= "password" name= "senha" placeholder = "Digite sua senha.." />
-              <ErrorMessage component="div" name="senha" />
+              <ErrorMessage className="mensagem" component="div" name="senha" />
             </div>
             
-            <div className='confimação-senha'>
+            <div className='confirmação-senha'>
               <p>Confirmação senha:</p>
               <Field type= "password" name= "confirmacaosenha" placeholder = "Confirme sua senha.." />
-              <ErrorMessage component="div" name="confirmacaosenha" />
+
+              <div className= "mensagem">
+              <ErrorMessage className="mensagem" component="spam" name="confirmacaosenha" />
+              </div>
              
             </div>
             

@@ -2,6 +2,7 @@ import React from 'react';
 
 import * as Styled from './styles'
 import './style.css';
+import { Link } from "react-router-dom";
 
 function Home(){
     return (
@@ -11,13 +12,15 @@ function Home(){
             <div className='header'>
                     <img src='./Images/logo-pequena.png' alt='logo principal' height='60px'></img>
 
-                    <button className='button1'>
-                        Login
+                    <Link to="/Login"><button className='button1'>
+                        Login  
                     </button>
+                    </Link>
 
-                    <button >
+                    <Link to="/Login"><button >
                         Sign up
                     </button>
+                    </Link>
             </div>    
 
             <Styled.Wrapper>
@@ -44,10 +47,6 @@ function Home(){
                 <img src='./Images/album-9.png' alt='Album 9' width='205px' ></img>
                 <img src='./Images/album-10.jpeg' alt='Album 10' width='205px' ></img>
             </div>
-
-            <idv className='final-home'>
-                <img src='./Images/Girl-Listening-Music.png' alt='Moça' width='600px'></img>
-            </idv>
 
         </div>
 

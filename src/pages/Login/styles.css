@@ -100,15 +100,21 @@ button {
     /*border: 2px solid green;*/
 }
 
-.nome input, .sobrenome input, .senha input, .confimação-senha input {
-    width: 365px;
+.nome input, .sobrenome input, .senha input, .confirmação-senha input {
+    width: 470x;
 }
 
-.email input, .confimação-email input {
+.email input, .confirmação-email input {
     width: 822px;
 }
 .aldiv {
     display: flex;
     flex-direction: row;
     width: 600px !important;
+}
+
+.mensagem{  
+    color: red;
+    min-width: 200px;
+    height: 10px;
 }
