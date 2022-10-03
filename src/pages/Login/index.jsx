@@ -2,18 +2,11 @@ import React from 'react';
 import './styles.css';
 import { Formik, Field, ErrorMessage } from "formik";
 import * as yup from "yup";
-import { Link } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 export function Login(){
-
-  const handleSubmit = (e) =>{
-
-    e.preventDefault();
-    const formData = new FormData(e.target);
-    const data = Object.fromEntries(formData);
-  };
-
+  const nav = useNavigate()
   const validationSchema = yup.object({
 
     nome: yup
@@ -46,6 +39,18 @@ export function Login(){
 
   });
 
+  const handleSubmit = (e) =>{
+
+    e.preventDefault();
+    const formData = new FormData(e.target);
+    const data = Object.fromEntries(formData);
+    
+    validationSchema.validate(data).then(valid => {
+      if(valid){
+        nav("/library")
+      }
+    })
+  };
     return (
 
       <Formik
