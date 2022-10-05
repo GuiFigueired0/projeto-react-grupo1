@@ -5,3 +5,6 @@ export const Wrapper = styled.div`
 
     height: 900px;
 `;
+
+// isso foi que eu estava testando um modelo de estilização mas decidi que era melhor
+// continuar usando o css normal mesmo 

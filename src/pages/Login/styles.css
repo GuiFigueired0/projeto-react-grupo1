@@ -26,6 +26,7 @@ input {
     font-size: 24px;
     line-height: 31px;
     color: #E3E0E0; 
+    cursor: pointer;
 }
 
 input::placeholder {
@@ -39,7 +40,7 @@ select:-webkit-autofill {
     -webkit-box-shadow: 0 0 0px 1000px rgba(124, 124, 124, 0.76)inset;
 }
 
-button {
+.box-informacoes button {
     width: 209px;
     height: 69px;
     background: #7B7B7B;

@@ -1,6 +1,12 @@
 import React from 'react';
 import './styleLib.css';
 
+const albunsBiblioteca = (require("../../db.json"))['my-library'];
+
+const artistaAlbuns = albunsBiblioteca.map((n) => n.artist);
+
+console.log(albunsBiblioteca);
+
 export function Lib(){
     return (
         
@@ -9,6 +15,8 @@ export function Lib(){
             <img src='./Images/logo-pequena.png' alt='logo principal' height='60px'></img>
             <input className='searchBar' type="text" placeholder= "O que você quer ouvir?"/>
         </header>
+
+        
         <div className='libraryContent'>
             <h1 className='mainTitle'>Sua Biblioteca:</h1>
             <div className='playlist'>
@@ -33,6 +41,12 @@ export function Lib(){
                 <a className='music' href="">Musica 3...</a>
             </div>
         </div>
+        
+
+        <div className='top-do-momento'>
+            
+        </div>
+
     </>
     )
 }

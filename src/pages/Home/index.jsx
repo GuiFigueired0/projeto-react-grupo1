@@ -12,15 +12,17 @@ function Home(){
             <div className='header'>
                     <img src='./Images/logo-pequena.png' alt='logo principal' height='60px'></img>
 
-                    <Link to="/Login"><button className='button1'>
-                        Login  
-                    </button>
-                    </Link>
+                    <div className='botao-home'>
+                        <Link to="/Login"><button className='button1'>
+                            Login  
+                        </button>
+                        </Link>
 
-                    <Link to="/Login"><button >
-                        Sign up
-                    </button>
-                    </Link>
+                        <Link to="/Login"><button >
+                            Sign up
+                        </button>
+                        </Link>
+                    </div>    
             </div>    
 
             <Styled.Wrapper>
